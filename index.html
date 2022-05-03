@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/4592bcc5fd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>
+      Co-Space, place d'affaires et bureaux partagés au coeur du centre-ville de
+      québec. Location de bureau, salle de conférence et services de
+      secrétariat.
+    </title>
+  </head>
+  <body>
+    <header id="home">
+      <!-- Banner -->
+      <div class="text-white text-center banner">
+        <h1 class="display-4 banner-heading mt-5">
+          Une place d'affaires à votre portée!
+        </h1>
+
+        <p class="lead banner-par">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p>
+
+        <a href="mailto:abc@abc.com &subject=Demande de visite &body=J'aimerais visiter vos locaux." class="btn bg-base text-white btn-base btn-lg mt-5">
+          Demander une visite!
+        </a>
+      </div>
+      <!-- end of Banner -->
+    </header>
+    <nav
+      id="main-navbar"
+      class="navbar navbar-expand-lg bg-base-70 navbar-dark nav-menu fixed-top"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Co-Space</a>
+        <button
+          class="navbar-toggler nav-button"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#myNavbar"
+          aria-expanded="false"
+          aria-controls="myNavbar"
+        >
+          <div class="bg-light line1"></div>
+          <div class="bg-light line2"></div>
+          <div class="bg-light line3"></div>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-lg-end text-uppercase"
+          id="myNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active menu-item"
+                aria-current="page"
+                href="#home"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-item" href="#propost">À propos</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle menu-item"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item text-capitalize" href="#servicest"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-capitalize" href="#evenementst"
+                    >Évènements</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-capitalize" href="#forfaitst"
+                    >Forfaits</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menu-item" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- A propos -->
+
+    <section class="container" id="propost">
+      <h1 class="text-base mt-5 mb-4">À Propos</h1>
+      <div class="bg-base-light shadow-sm">
+        <div class="row mt-3">
+          <div class="col-md-6 col-lg-4">
+            <img
+              src="images/christina-wocintechchat-com-swi1DGRCshQ-unsplash.jpg"
+              class="img-fluid"
+              alt="Christine et Monica"
+            />
+          </div>
+          <div class="col-md-6 col-lg-8 my-3 align-v">
+            <p class="text-lead">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              laborum dicta ipsam dignissimos voluptates. <br />
+              <br />
+              Eos nam atque perferendis ullam molestiae voluptatem repellendus
+              sequi quod animi! Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Dolorem error nam perspiciatis quam?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services-->
+    <section class="container" id="servicest">
+      <h1 class="text-base mt-5">Services</h1>
+      <div
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2"
+        id="services"
+      >
+        <!--card-->
+        <div class="col">
+          <div class="card card-height">
+            <img
+              src="images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Location de bureaux</h5>
+              <p class="card-text mt-4 mb-5">
+                Leverage agile frameworks to provide a robust synopsis for high
+                level overviews.<br /><br />
+              </p>
+              <div class="btn-card">
+                <a href="#forfaitst" class="btn bg-base text-white mt-4 btn-base"
+                  >Voir les forfaits!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card-->
+        <div class="col">
+          <div class="card card-height">
+            <img
+              src="images/lagos-techie-IgUR1iX0mqM-unsplash.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Formations et ateliers</h5>
+              <p class="card-text mt-4 mb-5">
+                Lorem ipsum dolor sit amet celit. Atque possimus, perferendis
+                vitae illo exercitationem recusandae?<br /><br />
+              </p>
+              <div class="btn-card">
+                <a href="#evenementst" class="btn bg-base text-white mt-4 btn-base"
+                  >Évènements à venir</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--card-->
+        <div class="col">
+          <div class="card card-height">
+            <img
+              src="images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg"
+              class="card-img-top"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Location de salles de conférences</h5>
+              <p class="card-text mt-4 mb-5">
+                Lorem ipsum dolor sit amet consectetur. Aut, ullam quo.<br /><br />
+              </p>
+              <div class="btn-card">
+                <a href="#forfaitst" class="btn bg-base text-white mt-4 btn-base"
+                  >Voir les forfaits!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--end of cards-->
+      </div>
+    </section>
+
+    <!-- Pourquoi Co-Space? -->
+    <section class="bg-base-70">
+      <div class="container">
+        <h1 class="text-white mt-5 pt-5">Pourquoi Co-Space?</h1>
+        <div class="container-fluid mt-5 max-w">
+          <div class="row" id="pourquoi">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-coffee services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-5">
+                  <p class="services-item">Café gratuit</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-parking text-white services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-5">
+                  <p class="services-item">Stationnement</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-utensils text-white services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-5">
+                  <p class="services-item">Cuisine moderne</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-wifi text-white services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-5">
+                  <p class="services-item">Wi-Fi disponible</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-print text-white services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-md-5">
+                  <p class="services-item">Service de secrétariat</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-handshake text-white services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-md-5">
+                  <p class="services-item">Possibilité de résautage</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-key text-white services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-md-5">
+                  <p class="services-item">Accès 24h / 7 jours</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-2 services-list mb-5">
+                  <p class="services-item">
+                    <i class="fas fa-couch text-white services-icon"></i>
+                  </p>
+                </div>
+                <div class="col-10 services-list mb-5">
+                  <p class="services-item">
+                    Atmosphère décontractée et conviviale
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin Pourquoi Co-Space? -->
+
+    <!-- Evenements -->
+    <section id="evenementst">
+      <div class="container">
+        <h1 class="text-base mt-5">Évènements à venir</h1>
+
+        <!-- Carousel-->
+        <div class="max-w mx-auto mt-5 shadow-lg" id="evenements">
+          <div
+            id="carousel-event"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carousel-event"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel-event"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carousel-event"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="images/louis-hansel-dNgwsE2HRJw-unsplash.jpg"
+                  class="d-block w-100"
+                  alt="5-7 de la rentrée"
+                />
+                <div class="carousel-caption d-none d-md-block bg-black">
+                  <h5>5-7 de la rentrée</h5>
+                  <p>7 septembre 2025</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg"
+                  class="d-block w-100"
+                  alt="Atelier interactif sur Twitter"
+                />
+                <div class="carousel-caption d-none d-md-block bg-black">
+                  <h5>Atelier interactif sur Twitter</h5>
+                  <p>18 octobre 2025</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/brooke-cagle-NoRsyXmHGpI-unsplash.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block bg-black">
+                  <h5>
+                    Rencontre avec Monique Deslaurier, auteure du livre
+                    <em>Ma business, mes affaires</em>
+                  </h5>
+                  <p>8 novembre 2025</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carousel-event"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carousel-event"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <!-- fin Carousel -->
+      </div>
+    </section>
+    <!-- fin Evenements -->
+    <section id="forfaitst">
+      <!-- Forfaits -->
+      <div class="container">
+        <h1 class="text-base mt-5">Nos forfaits</h1>
+
+        <!-- Card -->
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5"
+          id="forfaits"
+        >
+          <!-- 1st card-->
+          <div class="col">
+            <div class="card card-height text-white bg-base mb-3">
+              <div class="card-header text-uppercase">Le journalier</div>
+              <div class="card-body text-center">
+                <h5 class="card-title display-2">
+                  <i class="fas fa-briefcase mt-4"></i>
+                </h5>
+                <p class="card-text">
+                  <span class="display-6">25$</span> /jour
+                </p>
+                <div class="align-text-l">
+                  <div class="row mt-5">
+                    <div class="col-1"><i class="fas fa-check fs-6"></i></div>
+                    <div class="col-10">
+                      <p class="align-text-l">Passe valide pour une journée</p>
+                    </div>
+                    <div>
+                      <p class="btn-card">&nbsp;</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of 1st Card -->
+          <!-- 2nd Card -->
+          <div class="col">
+            <div class="card card-height text-white bg-base mb-3">
+              <div class="card-header text-uppercase">Le passager</div>
+              <div class="card-body text-center">
+                <h5 class="card-title display-2">
+                  <i class="fas fa-pencil-ruler mt-4"></i>
+                </h5>
+                <p class="card-text">
+                  <span class="display-6">150$</span> /mois
+                </p>
+                <div class="align-text-l">
+                  <div class="row mt-5">
+                    <div class="col-1"><i class="fas fa-check fs-6"></i></div>
+                    <div class="col-10">
+                      <p class="align-text-l">
+                        Jusqu'à 50 heures d'accès par mois
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">
+                        Accès à un bureau dédié dans l'aire de bureaux partagés
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="btn-card">&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of 2nd Card-->
+          <!-- 3rd Card -->
+          <div class="col">
+            <div class="card card-height text-white bg-base mb-3">
+              <div class="card-header text-uppercase">Le bien pensé</div>
+              <div class="card-body text-center">
+                <h5 class="card-title display-2">
+                  <i class="fas fa-desktop mt-4"></i>
+                </h5>
+                <p class="card-text">
+                  <span class="display-6">300$</span> /mois
+                </p>
+                <div class="align-text-l">
+                  <div class="row mt-5">
+                    <div class="col-1"><i class="fas fa-check fs-6"></i></div>
+                    <div class="col-10">
+                      <p class="align-text-l">
+                        Jusqu'à 100 heures d'accès par mois
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">
+                        Accès à un bureau dédié dans l'aire de bureaux partagés
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">Casier personnel</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="btn-card">&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of 3rd Card-->
+          <!-- 4th Card -->
+          <div class="col">
+            <div class="card card-height text-white bg-base mb-3">
+              <div class="card-header text-uppercase">Le professionnel</div>
+              <div class="card-body text-center">
+                <h5 class="card-title display-2">
+                  <i class="fas fa-star mt-4"></i>
+                </h5>
+                <p class="card-text">
+                  <span class="display-6">400$</span> /mois
+                </p>
+                <div class="align-text-l">
+                  <div class="row mt-5">
+                    <div class="col-1"><i class="fas fa-check fs-6"></i></div>
+                    <div class="col-10">
+                      <p class="align-text-l">Accès illimité</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">
+                        Accès à un bureau dédié dans l'aire de bureaux partagés
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">Casier personnel</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="btn-card">&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of 4th Card-->
+          <!-- 5th Card -->
+          <div class="col">
+            <div class="card card-height text-white bg-base mb-3">
+              <div class="card-header text-uppercase">Professionnel +</div>
+              <div class="card-body text-center">
+                <h5 class="card-title display-2">
+                  <i class="fas fa-star mt-4"></i
+                  ><i class="fas fa-star mt-4"></i
+                  ><i class="fas fa-star mt-4"></i>
+                </h5>
+                <p class="card-text">
+                  <span class="display-6">500$</span> /mois
+                </p>
+                <div class="align-text-l">
+                  <div class="row mt-5">
+                    <div class="col-1"><i class="fas fa-check fs-6"></i></div>
+                    <div class="col-10">
+                      <p class="align-text-l">Accès illimité</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">Bureau fermé privé</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">1 atelier gratuit par mois</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-1">
+                      <i class="fas fa-check fs-6"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="align-text-l">
+                        Crédit de 50 impressions par mois
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="btn-card">&nbsp;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end of 5th Card-->
+        </div>
+      </div>
+      <!-- end of all Cards -->
+    </section>
+    <!-- Contact -->
+    <section class="bg-base-light">
+      <div class="container">
+        <h1 class="text-base mt-5 pt-5">Nous contacter</h1>
+        <div class="container-fluid mt-5">
+          <div class="row" id="contact">
+            <div class="col-md-8 col-lg-6 pb-5">
+              <div class="wrapper">
+                <div class="h_iframe">
+                 
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.5099891858877!2d-71.22901558414793!3d46.81395755038694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb8967209f7a2cf%3A0x6d9c1e3f659cef2f!2sRue%20Dorchester%2C%20Qu%C3%A9bec%2C%20QC!5e0!3m2!1sfr!2sca!4v1651587403173!5m2!1sfr!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+            <div class="contact-info col-md-4 col-lg-6 text-md-end">
+              <h2 class="text-base">Co-Space</h2>
+
+              <p class="text-base fs-6 mt-1 mb-3 fw-light">
+                1234 rue Dorchester<br />Québec, Qc G1A 1A1
+              </p>
+              <p class="text-base mt-1 mb-5 fs-5">
+                <i class="fas fa-phone-square-alt"></i> 418-999-1234
+              </p>
+              <a href="mailto:abc@abc.com &subject=Demande de contact &body=Veuillez me contacter." class="btn bg-base text-white btn-base">Contactez-nous!</a>
+              <p class="text-base fs-5 my-2">
+                Visitez-nous sur les réseaux-sociaux!
+              </p>
+              <p id="reseaux-sociaux" class="reseaux">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- fin Contact -->
+    <!-- Footer -->
+
+    <footer id="footer-main" class="bg-base">
+      <div class="container-fluid">
+        <div class="container pt-5">
+          <p class="copyright text-center">
+            &#169; Tous droits réservés 2021, Co-Space <br />
+            Création du site:
+            <a
+              href="http://www.caroline-fontaine.com"
+              class="copyright-link text-center"
+              target="blank"
+            >
+              Caroline Fontaine, développeuse WEB</a
+            >
+          </p>
+
+          <p class="copyright text-center pb-5">
+            Crédits photos :
+            <a
+              class="copyright-link"
+              href="https://unsplash.com/s/photos/river?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Unsplash: </a
+            ><br /><a
+              class="copyright-link"
+              href="https://unsplash.com/@heylagostechie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Lagos Techie
+            </a>
+            -
+            <a
+              class="copyright-link"
+              href="https://unsplash.com/@louishansel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Louis Hansel
+            </a>
+            -
+
+            <a
+              class="copyright-link"
+              href="https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Christina @ wocintechchat.com
+            </a>
+            -
+
+            <a
+              class="copyright-link"
+              href="https://unsplash.com/@sunday_digital?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Nastuh Abootalebi
+            </a>
+            -
+
+            <a
+              class="copyright-link"
+              href="https://unsplash.com/@brookecagle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+              target="_blank"
+              >Brooke Cagle</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- fin Footer -->
+
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>
